@@ -55,7 +55,7 @@ def test_add_product_to_cart_from_catalog():
     browser.quit()
 
 
-def test_delete_product_from_cart():
+def test_remove_product_from_cart():
     """
     Удаление товара из корзины через корзину
     """
@@ -185,7 +185,7 @@ def test_filter_az():
     browser.quit()
 
 
-def test_check_filter_za():
+def test_filter_za():
     """
     Проверка работоспособности фильтра (Z to A)
     """
@@ -203,7 +203,7 @@ def test_check_filter_za():
     browser.quit()
 
 
-def test_check_filter_lohi():
+def test_filter_lohi():
     """
     Проверка работоспособности фильтра (low to high)
     """
@@ -221,7 +221,7 @@ def test_check_filter_lohi():
     browser.quit()
 
 
-def test_check_filter_hilo():
+def test_filter_hilo():
     """
     Проверка работоспособности фильтра (high to low)
     """
